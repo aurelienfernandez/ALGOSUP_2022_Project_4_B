@@ -1,6 +1,6 @@
 # Technical Specification
 
-## 2022 project 4 virtual B3
+## 2022 project 4 virtual B3 Group B
 
 The project began February 21<sup>th</sup> 2022 and will end April 8<sup>th</sup> 2022.
 
@@ -19,14 +19,11 @@ This Project is create by a team composed of :
   
 <!-- - [1. Front matter](#1-front-matter) -->
 - [Technical Specification](#technical-specification)
-  - [2022 project 4 virtual B3](#2022-project-4-virtual-b3)
+  - [2022 project 4 virtual B3 Group B](#2022-project-4-virtual-b3-group-b)
   - [1. Introduction](#1-introduction)
     - [a. Overview](#a-overview)
     - [b. Glossary](#b-glossary)
     - [c. Product and Technical Requirements](#c-product-and-technical-requirements)
-<<<<<<< HEAD
-    - [d. Out of scope](#d-out-of-scope)
-=======
     - [d. Configuration](#d-configuration)
   - [You can use the 3D template (default)](#you-can-use-the-3d-template-default)
   - [Go to File->Build Settings (or Unity->Build Settings on Mac), select Android and click Switch Platform](#go-to-file-build-settings-or-unity-build-settings-on-mac-select-android-and-click-switch-platform)
@@ -36,7 +33,6 @@ This Project is create by a team composed of :
   - [Then, go to Project Settings (Edit->Project Settings) and select the Preset Manager tab. In the ActionBasedController section, set respectively ‘Left’ and ‘Right’ in the Filter field for left and right controller presets:](#then-go-to-project-settings-edit-project-settings-and-select-the-preset-manager-tab-in-the-actionbasedcontroller-section-set-respectively-left-and-right-in-the-filter-field-for-left-and-right-controller-presets)
   - [Add spheres (or any other 3D models representing hands/controllers) as a child of both LeftHand Controller and RightHand Controller under XR Origin/Camera Offset.](#add-spheres-or-any-other-3d-models-representing-handscontrollers-as-a-child-of-both-lefthand-controller-and-righthand-controller-under-xr-origincamera-offset)
     - [e. Out of scope](#e-out-of-scope)
->>>>>>> 70bb09f3d4c4bbcd8ee0cf5fb5fc66e439a91245
   - [2. Solution](#2-solution)
     - [a.Existing solution](#aexisting-solution)
   - [b. Design](#b-design)
@@ -47,6 +43,7 @@ This Project is create by a team composed of :
     - [a. Work estimations and timelines](#a-work-estimations-and-timelines)
     - [b. Priorities](#b-priorities)
     - [c. Milestones](#c-milestones)
+    - [d. Problem encountered](#d-problem-encountered)
 
 </details>
 
@@ -95,8 +92,7 @@ Like our laptops don't have graphic cards we need to build this unity project wi
   These settings are required to build on Quest (can be different for other headsets)
 
   While the Build Settings window is still open, set the Texture Compression to ASTC
-
-
+  
   Then, go to Edit->Project Settings and select the Player tab.
   Make sure the Android tab is selected and set the following settings:
 
@@ -144,12 +140,7 @@ Like our laptops don't have graphic cards we need to build this unity project wi
   If not, make sure your headset is on, check its connection with the PC/Mac and check the ADB setup. Then click Refresh.
 
 
-
-
-
 ### e. Out of scope
-
-
 
 ## 2. Solution
 
@@ -190,7 +181,7 @@ The simulation doesn't need any user data to be downloaded nor to be played so u
 
 Our priorities are :
 
-- Convert the actual file of the B3 because it's to heavy to push it on github without problem. 
+- Convert the actual file of the B3 because it's to heavy to push it on github without problem.
 - Create NPCs who navigates trough the school
 - Create various interaction with the environment
 
@@ -201,3 +192,9 @@ Our priorities are :
 - between the 7<sup>th</sup> and the 11<sup>th</sup> March 2022 we will have to present our deliverables to our client.
 
 - Friday 8<sup>th</sup> April we have to present and demonstrate the result of our project to our client.
+
+### d. Problem encountered
+
+- The base fbx file was over 100MB so we had to use Git LFS the problem we hadn't foreseen is that Git LFS has a storage and bandwidth limit so when we added items to the B3 over the weeks we So when we added items to the B3 over the weeks we reached the storage and bandwidth limit so we couldn't pull any more and therefore we couldn't push any more and so we had to make sure that the B3 was less than 100MB so that we didn't have the problems of Git LFS.
+
+- Computers do not provide enough power for smooth export and launch of fbx files which takes a long time at each launch or export.
