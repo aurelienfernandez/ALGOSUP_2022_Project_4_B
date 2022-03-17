@@ -25,13 +25,6 @@ This Project is create by a team composed of :
     - [b. Glossary](#b-glossary)
     - [c. Product and Technical Requirements](#c-product-and-technical-requirements)
     - [d. Configuration](#d-configuration)
-  - [You can use the 3D template (default)](#you-can-use-the-3d-template-default)
-  - [Go to File->Build Settings (or Unity->Build Settings on Mac), select Android and click Switch Platform](#go-to-file-build-settings-or-unity-build-settings-on-mac-select-android-and-click-switch-platform)
-  - [- Make sure Target API Level is set to Automatic (highest installed)](#--make-sure-target-api-level-is-set-to-automatic-highest-installed)
-  - [To make our project run in Quest, under the Android tab, check the Oculus box in Plug-ins Providers](#to-make-our-project-run-in-quest-under-the-android-tab-check-the-oculus-box-in-plug-ins-providers)
-  - [When the Unity Editor is back, still in the Package Manager window with XR Interaction Toolkit selected, expand Samples and click the Import button next to Starter Assets](#when-the-unity-editor-is-back-still-in-the-package-manager-window-with-xr-interaction-toolkit-selected-expand-samples-and-click-the-import-button-next-to-starter-assets)
-  - [Then, go to Project Settings (Edit->Project Settings) and select the Preset Manager tab. In the ActionBasedController section, set respectively ‘Left’ and ‘Right’ in the Filter field for left and right controller presets:](#then-go-to-project-settings-edit-project-settings-and-select-the-preset-manager-tab-in-the-actionbasedcontroller-section-set-respectively-left-and-right-in-the-filter-field-for-left-and-right-controller-presets)
-  - [Add spheres (or any other 3D models representing hands/controllers) as a child of both LeftHand Controller and RightHand Controller under XR Origin/Camera Offset.](#add-spheres-or-any-other-3d-models-representing-handscontrollers-as-a-child-of-both-lefthand-controller-and-righthand-controller-under-xr-origincamera-offset)
     - [e. Out of scope](#e-out-of-scope)
   - [2. Solution](#2-solution)
     - [a.Existing solution](#aexisting-solution)
@@ -80,64 +73,63 @@ Plan all the issues could be happened in a school it's not an easy things to do.
 
 ### d. Configuration
 Like our laptops don't have graphic cards we need to build this unity project with a specific way so there are the steps to follow : 
-- Create a new Unity project using version 2020 
-  You can use the 3D template (default) 
+  - Create a new Unity project using version 2020 
+    You can use the 3D template (default) 
 ---
-- Switch the target platform to Android
-  Because we’re targeting Quest 2 which is running on Android, we need to switch the project to Android. In case you are targeting a PC VR headset (HTC Vive, Valve Index, …), you need to target PC.
-  Go to File->Build Settings (or Unity->Build Settings on Mac), select Android and click Switch Platform
+  - Switch the target platform to Android
+    Because we’re targeting Quest 2 which is running on Android, we need to switch the project to Android. In case you are targeting a PC VR headset (HTC Vive, Valve Index, …), you need to target PC.
+    Go to File->Build Settings (or Unity->Build Settings on Mac), select Android and click Switch Platform
 ---
-- Edit the settings
-  These settings are required to build on Quest (can be different for other headsets)
+  - Edit the settings
+    These settings are required to build on Quest (can be different for other headsets)
 
-  While the Build Settings window is still open, set the Texture Compression to ASTC
+    While the Build Settings window is still open, set the Texture Compression to ASTC
 
+    Then, go to Edit->Project Settings and select the Player tab.
+    Make sure the Android tab is selected and set the following settings:
 
-  Then, go to Edit->Project Settings and select the Player tab.
-  Make sure the Android tab is selected and set the following settings:
-
-  Under Other Settings:
-  - Set Color Space to Linear
-  - Remove Vulkan from Graphics API list
-  - Set Minimum API Level to Android 6.0 Marshmallow (API level 23)
-  - Make sure Target API Level is set to Automatic (highest installed)
+    Under Other Settings:
+    - Set Color Space to Linear
+    - Remove Vulkan from Graphics API list
+    - Set Minimum API Level to Android 6.0 Marshmallow (API level 23)
+    - Make sure Target API Level is set to Automatic (highest installed)
 ---
-- Enable VR in the project
-  In the Project Settings window (Edit->Project Settings), select the XR Plugin Management tab and click on Install XR Plugin Management
+  - Enable VR in the project
+    In the Project Settings window (Edit->Project Settings), select the XR Plugin Management tab and click on Install XR Plugin Management
 
-  To make our project run in Quest, under the Android tab, check the Oculus box in Plug-ins Providers
+    To make our project run in Quest, under the Android tab, check the Oculus box in Plug-ins Providers
 ---
-- Install XR Interaction Toolkit
-  Go to Window->Package Manager, in the Packages, select Unity Registry and look for XR Interaction Toolkit in the list. Select it and click Install
+  - Install XR Interaction Toolkit
+    Go to Window->Package Manager, in the Packages, select Unity Registry and look for XR Interaction Toolkit in the list. Select it and click Install
 
 
-  You might have windows asking you if you want to use the new Input System and asking confirmation to use the Interaction Layer. Choose ‘Yes’ and ‘I Made A Backup, Go Ahead!’ Your Unity project will restart.
-  When the Unity Editor is back, still in the Package Manager window with XR Interaction Toolkit selected, expand Samples and click the Import button next to Starter Assets
+    You might have windows asking you if you want to use the new Input System and asking confirmation to use the Interaction Layer. Choose ‘Yes’ and ‘I Made A Backup, Go Ahead!’ Your Unity project will restart.
+    When the Unity Editor is back, still in the Package Manager window with XR Interaction Toolkit selected, expand Samples and click the Import button next to Starter Assets
 ---
-- Set up inputs
-  The XR Interaction Toolkit is using the new input system and provides sample VR inputs ready to use.
-  In the Project window, go to Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets, select XRI Default Left Controller.preset and click on ‘Add to ActionBasedController default’ in the Inspector window:
+  - Set up inputs
+    The XR Interaction Toolkit is using the new input system and provides sample VR inputs ready to use.
+    In the Project window, go to Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets, select XRI Default Left Controller.preset and click on ‘Add to ActionBasedController default’ in the Inspector window:
 
 
-  Do the same for XRI Default Right Controller.preset and XRI Default Snap Turn.preset
-  Then, go to Project Settings (Edit->Project Settings) and select the Preset Manager tab. In the ActionBasedController section, set respectively ‘Left’ and ‘Right’ in the Filter field for left and right controller presets:
+    Do the same for XRI Default Right Controller.preset and XRI Default Snap Turn.preset
+    Then, go to Project Settings (Edit->Project Settings) and select the Preset Manager tab. In the ActionBasedController section, set respectively ‘Left’ and ‘Right’ in the Filter field for left and right controller presets:
 ---
-- Make a simple scene
-  Create a new scene or use an existing one. Add an XR Rig (Action-Based), a Teleportation Area and a Grab Interactable
+  - Make a simple scene
+    Create a new scene or use an existing one. Add an XR Rig (Action-Based), a Teleportation Area and a Grab Interactable
 
 
-  On the newly created XR Origin GameObject, look for the XR Origin component and set the Tracking Origin to Floor.
-  Add an InputActionManager component to that GameObject and add the XRIDefaultInputActions file to the Action Assets list:
+    On the newly created XR Origin GameObject, look for the XR Origin component and set the Tracking Origin to Floor.
+    Add an InputActionManager component to that GameObject and add the XRIDefaultInputActions file to the Action Assets list:
 
 
-  Add spheres (or any other 3D models representing hands/controllers) as a child of both LeftHand Controller and RightHand Controller under XR Origin/Camera Offset.
+    Add spheres (or any other 3D models representing hands/controllers) as a child of both LeftHand Controller and RightHand Controller under XR Origin/Camera Offset.
 ---
-- Build and run your app
-  Your scene is now ready to be sent to the headset.
-  Connect your Quest to the PC/Mac using ADB (details on how to install it here(Windows) and here(Mac))
-  Open the Build Settings window (File->Build Settings or Unity->Build Settings).<br> Add your scene to the Scenes In Build list (drag and drop from Project window or ‘Add Open Scenes’ while your scene is opened).
-  Your device should appear in the Run Device list field*.<br> Select it, press Build And Run and choose where you want the APK file to be saved. After waiting a few, your app will be built and directly played in the headset, enjoy!<br>
-  If not, make sure your headset is on, check its connection with the PC/Mac and check the ADB setup. Then click Refresh.
+  - Build and run your app
+    Your scene is now ready to be sent to the headset.
+    Connect your Quest to the PC/Mac using ADB (details on how to install it here(Windows) and here(Mac))
+    Open the Build Settings window (File->Build Settings or Unity->Build Settings).<br> Add your scene to the Scenes In Build list (drag and drop from Project window or ‘Add Open Scenes’ while your scene is opened).
+    Your device should appear in the Run Device list field*.<br> Select it, press Build And Run and choose where you want the APK file to be saved. After waiting a few, your app will be built and directly played in the headset, enjoy!<br>
+    If not, make sure your headset is on, check its connection with the PC/Mac and check the ADB setup. Then click Refresh.
 
 
 
