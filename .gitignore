@@ -60,3 +60,7 @@ sysinfo.txt
 crashlytics-build.properties
 
 *.log
+B3/Logs/AssetImportWorker0.log
+B3/Logs/AssetImportWorker0-prev.log
+B3/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+B3/ProjectSettings/Packages/com.unity.probuilder/Settings.json
