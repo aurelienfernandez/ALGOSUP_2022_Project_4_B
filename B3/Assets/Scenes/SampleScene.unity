@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MursPrincipaux
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07635ec0d1f142d40990e1776b1f79d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07635ec0d1f142d40990e1776b1f79d0, type: 3}
 --- !u!4 &7531221 stripped
@@ -766,6 +770,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Poutre
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8490325a18239164880e0f678d29579a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8490325a18239164880e0f678d29579a, type: 3}
 --- !u!4 &1261423280 stripped
@@ -952,6 +960,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Toiture
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5d684ecf0eb0df438395da5f44db5b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5d684ecf0eb0df438395da5f44db5b3, type: 3}
 --- !u!4 &1869765075 stripped
@@ -1013,6 +1025,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 45941795b8bcf4349bd30026bca35b10, type: 3}
       propertyPath: m_Name
       value: Sous-Sol
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 45941795b8bcf4349bd30026bca35b10, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45941795b8bcf4349bd30026bca35b10, type: 3}
