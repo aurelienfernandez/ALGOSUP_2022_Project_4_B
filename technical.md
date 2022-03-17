@@ -18,21 +18,23 @@ This Project is create by a team composed of :
 <details><summary>Table of Contents</summary>
   
 <!-- - [1. Front matter](#1-front-matter) -->
-- [1. Introduction](#1-introduction)
-  - [a. Overview](#a-overview)
-  - [b. Glossary](#b-glossary)
-  - [c. Product and Technical Requirements](#c-product-and-technical-requirements)
-  - [d. Out of scope](#d-out-of-scope)
-- [2. Solution](#2-solution)
-  - [a. Existing solution](#a-existing-solution)
+- [Technical Specification](#technical-specification)
+  - [2022 project 4 virtual B3](#2022-project-4-virtual-b3)
+  - [1. Introduction](#1-introduction)
+    - [a. Overview](#a-overview)
+    - [b. Glossary](#b-glossary)
+    - [c. Product and Technical Requirements](#c-product-and-technical-requirements)
+    - [d. Out of scope](#d-out-of-scope)
+  - [2. Solution](#2-solution)
+    - [a.Existing solution](#aexisting-solution)
   - [b. Design](#b-design)
-- [3. Additional consideration](#3-Additional-consideration)
-  - [a. Risks](#a-risks)
-  - [b. Privacy Consideration](#b-privacy-consideration)
-- [4. Work](#4-work)
-  - [a. Work estimations and timelines](#a-work-estimations-and-timelines)
-  - [b. Priorities](#b-priorities)
-  - [c. Milestones](#c-milestones)
+  - [3. Additional consideration](#3-additional-consideration)
+    - [a. Risks](#a-risks)
+    - [b. Privacy consideration](#b-privacy-consideration)
+  - [4. Work](#4-work)
+    - [a. Work estimations and timelines](#a-work-estimations-and-timelines)
+    - [b. Priorities](#b-priorities)
+    - [c. Milestones](#c-milestones)
 
 </details>
 
@@ -56,7 +58,7 @@ Plan all the issues could be happened in a school it's not an easy things to do.
 |terms|definitions|
 |-|-|
 |VR|Virtual reality|
-|B3|Algosup's next building, it means building number 3|
+|B3|The B3 was originally a tractor factory, which was closed in 1994 and is partly listed as a historical monument. The B3 is the next building for the ALGOSUP school, which will occupy the ground floor. In addition, the first floor will be occupied by the CNAM.|
 
 ### c. Product and Technical Requirements
 
