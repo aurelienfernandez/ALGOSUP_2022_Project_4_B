@@ -24,8 +24,12 @@ This Project is create by a team composed of :
     - [a. Overview](#a-overview)
     - [b. Glossary](#b-glossary)
     - [c. Product and Technical Requirements](#c-product-and-technical-requirements)
+<<<<<<< HEAD
+    - [d. Out of scope](#d-out-of-scope)
+=======
     - [d. Configuration](#d-configuration)
     - [e. Out of scope](#e-out-of-scope)
+>>>>>>> 70bb09f3d4c4bbcd8ee0cf5fb5fc66e439a91245
   - [2. Solution](#2-solution)
     - [a.Existing solution](#aexisting-solution)
   - [b. Design](#b-design)
@@ -59,7 +63,7 @@ Plan all the issues could be happened in a school it's not an easy things to do.
 |terms|definitions|
 |-|-|
 |VR|Virtual reality|
-|B3|Algosup's next building, it means building number 3|
+|B3|The B3 was originally a tractor factory, which was closed in 1994 and is partly listed as a historical monument. The B3 is the next building for the ALGOSUP school, which will occupy the ground floor. In addition, the first floor will be occupied by the CNAM.|
 
 ### c. Product and Technical Requirements
 
