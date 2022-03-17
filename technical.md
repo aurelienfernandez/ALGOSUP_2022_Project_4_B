@@ -17,7 +17,6 @@ This Project is create by a team composed of :
 
 <details><summary>Table of Contents</summary>
   
-<!-- - [1. Front matter](#1-front-matter) -->
 - [Technical Specification](#technical-specification)
   - [2022 project 4 virtual B3 Group B](#2022-project-4-virtual-b3-group-b)
   - [1. Introduction](#1-introduction)
@@ -66,85 +65,73 @@ Plan all the issues could be happened in a school it's not an easy things to do.
 
 | Technical | Using |
 |-|-|
-|[C#](https://docs.microsoft.com/fr-fr/dotnet/csharp/)| We code in C# because it's the language used by default in Unity |
+|[C#](https://docs.microsoft.com/fr-fr/dotnet/csharp/)| We code in C# because it's the language used by default in Unity. |
 |[Unity](https://store.unity.com/fr#plans-individual)| Unity is a cross-platform game engine. The engine has since been gradually extended to support a variety of desktop, mobile, console and virtual reality platforms.
 |[Visual Studio Community 2019](https://visualstudio.microsoft.com/fr/downloads/)|We use VSCommunity for this project because it's less complicated to work on it in C#.   |
 |[Asset store Unity](https://assetstore.unity.com/) |The Unity Asset Store is an ever-expanding library of resources. Unity Technologies and community members create these resources and publish them from the Asset Store. |
-|[.NET 6.O](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)| We use this version of .NET because it is the latest and the more efficient version|
-
+|[.NET 6.O](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)| We use this version of .NET because it is the latest and the more efficient version.|
+|[ambientCG](https://ambientcg.com/)|We use this Website to have all of texture we want. |
 ### d. Configuration
-Like our laptops don't have graphic cards we need to build this unity project with a specific way so there are the steps to follow : 
-  - Create a new Unity project using version 2020 
-    You can use the 3D template (default) 
+
+Like our laptops don't have graphic cards we need to build this unity project with a specific way so there are the steps to follow :
+  - Create a new Unity project using version 2020.
+    You can use the 3D template (default).
 ---
   - Switch the target platform to Android
     Because we’re targeting Quest 2 which is running on Android, we need to switch the project to Android. In case you are targeting a PC VR headset (HTC Vive, Valve Index, …), you need to target PC.
-    Go to File->Build Settings (or Unity->Build Settings on Mac), select Android and click Switch Platform
+    Go to File->Build Settings (or Unity->Build Settings on Mac), select Android and click Switch Platform.
 ---
   - Edit the settings
-    These settings are required to build on Quest (can be different for other headsets)
+  
+    These settings are required to build on Quest (can be different for other headsets).
 
-<<<<<<< HEAD
-  While the Build Settings window is still open, set the Texture Compression to ASTC
+  While the Build Settings window is still open, set the Texture Compression to ASTC.
   
   Then, go to Edit->Project Settings and select the Player tab.
   Make sure the Android tab is selected and set the following settings:
 
   Under Other Settings:
-  - Set Color Space to Linear
-  - Remove Vulkan from Graphics API list
-  - Set Minimum API Level to Android 6.0 Marshmallow (API level 23)
-  - Make sure Target API Level is set to Automatic (highest installed)
-=======
-    While the Build Settings window is still open, set the Texture Compression to ASTC
+  - Set Color Space to Linear.
+  - Remove Vulkan from Graphics API list.
+  - Set Minimum API Level to Android 6.0 Marshmallow (API level 23).
+  - Make sure Target API Level is set to Automatic (highest installed).
 
-    Then, go to Edit->Project Settings and select the Player tab.
-    Make sure the Android tab is selected and set the following settings:
-
-    Under Other Settings:
-    - Set Color Space to Linear
-    - Remove Vulkan from Graphics API list
-    - Set Minimum API Level to Android 6.0 Marshmallow (API level 23)
-    - Make sure Target API Level is set to Automatic (highest installed)
->>>>>>> 524895d513057f250f6c4f4da139090e87a82c55
 ---
   - Enable VR in the project
-    In the Project Settings window (Edit->Project Settings), select the XR Plugin Management tab and click on Install XR Plugin Management
+    In the Project Settings window (Edit->Project Settings), select the XR Plugin Management tab and click on Install XR Plugin Management.
 
-    To make our project run in Quest, under the Android tab, check the Oculus box in Plug-ins Providers
+    To make our project run in Quest, under the Android tab, check the Oculus box in Plug-ins Providers.
 ---
   - Install XR Interaction Toolkit
-    Go to Window->Package Manager, in the Packages, select Unity Registry and look for XR Interaction Toolkit in the list. Select it and click Install
-
+    Go to Window->Package Manager, in the Packages, select Unity Registry and look for XR Interaction Toolkit in the list. Select it and click Install.
 
     You might have windows asking you if you want to use the new Input System and asking confirmation to use the Interaction Layer. Choose ‘Yes’ and ‘I Made A Backup, Go Ahead!’ Your Unity project will restart.
-    When the Unity Editor is back, still in the Package Manager window with XR Interaction Toolkit selected, expand Samples and click the Import button next to Starter Assets
+    When the Unity Editor is back, still in the Package Manager window with XR Interaction Toolkit selected, expand Samples and click the Import button next to Starter Assets.
 ---
   - Set up inputs
     The XR Interaction Toolkit is using the new input system and provides sample VR inputs ready to use.
     In the Project window, go to Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets, select XRI Default Left Controller.preset and click on ‘Add to ActionBasedController default’ in the Inspector window:
 
-
-    Do the same for XRI Default Right Controller.preset and XRI Default Snap Turn.preset
+    Do the same for XRI Default Right Controller.preset and XRI Default Snap Turn.preset.
     Then, go to Project Settings (Edit->Project Settings) and select the Preset Manager tab. In the ActionBasedController section, set respectively ‘Left’ and ‘Right’ in the Filter field for left and right controller presets:
 ---
   - Make a simple scene
+  
     Create a new scene or use an existing one. Add an XR Rig (Action-Based), a Teleportation Area and a Grab Interactable
-
 
     On the newly created XR Origin GameObject, look for the XR Origin component and set the Tracking Origin to Floor.
     Add an InputActionManager component to that GameObject and add the XRIDefaultInputActions file to the Action Assets list:
 
-
     Add spheres (or any other 3D models representing hands/controllers) as a child of both LeftHand Controller and RightHand Controller under XR Origin/Camera Offset.
+
 ---
   - Build and run your app
+  
     Your scene is now ready to be sent to the headset.
-    Connect your Quest to the PC/Mac using ADB (details on how to install it here(Windows) and here(Mac))
+    Connect your Quest to the PC/Mac using ADB (details on how to install it here(Windows) and here(Mac)).
     Open the Build Settings window (File->Build Settings or Unity->Build Settings).<br> Add your scene to the Scenes In Build list (drag and drop from Project window or ‘Add Open Scenes’ while your scene is opened).
     Your device should appear in the Run Device list field*.<br> Select it, press Build And Run and choose where you want the APK file to be saved. After waiting a few, your app will be built and directly played in the headset, enjoy!<br>
     If not, make sure your headset is on, check its connection with the PC/Mac and check the ADB setup. Then click Refresh.
-
 
 ### e. Out of scope
 
@@ -172,8 +159,8 @@ This is an example of what we want. We want an experience as close as possible a
 
 |Risk|Impact|
 |-|-|
-|Time|We might not finish every tasks within the seven weeks|
-|Size|If the simulation is too big it might affect performances|
+|Time|We might not finish every tasks within the seven weeks.|
+|Size|If the simulation is too big it might affect performances.|
 
 ### b. Privacy consideration
 
@@ -188,8 +175,8 @@ The simulation doesn't need any user data to be downloaded nor to be played so u
 Our priorities are :
 
 - Convert the actual file of the B3 because it's to heavy to push it on github without problem.
-- Create NPCs who navigates trough the school
-- Create various interaction with the environment
+- Create NPCs who navigates trough the school.
+- Create various interaction with the environment.
 
 ### c. Milestones
 
