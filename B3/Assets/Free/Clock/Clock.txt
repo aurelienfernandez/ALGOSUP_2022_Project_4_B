@@ -1,0 +1,26 @@
+Here is a Clock I made in Blender some time ago.
+There are three different versions, a version of cycles rendering,
+a version with animation fort he Blender Game Engine and a version
+with constraints settings to adjust the time.
+
+- 227 vertices 
+- 196 polygons 
+- 338 triangles
+
+Demo-Video for BGE: https://www.youtube.com/watch?v=AkR8oqtmYQc
+Demo-Video for Cycles: https://www.youtube.com/watch?v=VFkE29ABj_4
+Demo-Video Clock with constraints : https://www.youtube.com/watch?v=WwCH66Wzf-c
+
+
+Sketchfab 3d-View: https://sketchfab.com/models/3Onrg4AiDhuwWq4FCrxjabAHkT
+
+
+© DennisH2010
+
+Sketchfab.com: https://sketchfab.com/dennish2010/recent
+
+Verold.com: http://studio.verold.com/users/53199fa416c3570200000603/filter/mine
+
+Blog : http://3dartdh.wordpress.com/
+
+YouTube-Channel: https://www.youtube.com/user/DennisH2010
