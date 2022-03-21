@@ -7,7 +7,7 @@ B3/[Ll]ibrary/
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
-/[Ll]ogs/
+/[Ll]og/
 /[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
@@ -64,3 +64,4 @@ B3/Logs/AssetImportWorker0.log
 B3/Logs/AssetImportWorker0-prev.log
 B3/Logs/shadercompiler-UnityShaderCompiler.exe0.log
 B3/ProjectSettings/Packages/com.unity.probuilder/Settings.json
+
