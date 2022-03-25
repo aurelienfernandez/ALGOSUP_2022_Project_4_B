@@ -36,6 +36,7 @@ This Project is create by a team composed of :
     - [b. Priorities](#b-priorities)
     - [c. Milestones](#c-milestones)
     - [d. Technical risks](#d-technical-risks)
+  - [List of asset :](#list-of-asset-)
 
 </details>
 
@@ -193,3 +194,42 @@ One of the biggest risk during this project is its weight. If the project is to 
 - The base fbx file was over 100MB so we had to use Git LFS the problem we hadn't foreseen is that Git LFS has a storage and bandwidth limit so when we added items to the B3 over the weeks we So when we added items to the B3 over the weeks we reached the storage and bandwidth limit so we couldn't pull any more and therefore we couldn't push any more and so we had to make sure that the B3 was less than 100MB so that we didn't have the problems of Git LFS.
 
 - Computers do not provide enough power for smooth export and launch of fbx files which takes a long time at each launch or export.
+
+
+
+## List of asset :
+- [Ashtray](https://www.cgtrader.com/free-3d-models/interior/interior-office/used-ashtray)
+- [Microwave](https://www.cgtrader.com/free-3d-models/interior/kitchen/microwave-19523085-bd6e-4046-a0d2-39f7bb44c0bb)
+- [Pool table](https://free3d.com/3d-model/pool-table-v1--600461.html)
+- [Sofa](https://www.cgtrader.com/free-3d-models/interior/house-interior/mirabel-pewter-sofa)
+- [Pouf](https://www.cgtrader.com/free-3d-models/furniture/other/fabric-pouf)
+- [Glass](https://www.cgtrader.com/free-3d-models/household/other/wine-glasses--3)
+- [Aloe vera plant](https://www.cgtrader.com/free-3d-models/plant/pot-plant/aloe-vera-plant-dcc07e32-ba23-4674-af4c-a52d6f608b91)
+- [tall plant pot](https://www.cgtrader.com/free-3d-models/plant/pot-plant/tall-plant-pot)
+- [Coffe machine](https://www.cgtrader.com/free-3d-models/household/kitchenware/coffee-machine-rigged)
+- [Office drink machine](https://www.cgtrader.com/free-3d-models/interior/interior-office/office-drink-machines-low-poly)
+- [Coffee cup](https://www.cgtrader.com/free-3d-models/household/kitchenware/cafe-coffee-cup-3d-model)
+- [Weelchair](https://www.cgtrader.com/free-3d-models/science/medical/wheelchair-16868cf7-6f77-452e-b2c3-2cd9c73ae06a)
+- [Drone](https://free3d.com/3d-model/drone-costume-411845.html)
+- [Extension cable](https://www.cgtrader.com/free-3d-models/electronics/other/extension-cable)
+- [Access Machine](:https://www.cgtrader.com/free-3d-models/electronics/other/sci-fi-access-machine)
+- [Kitchen sponge](https://www.cgtrader.com/free-3d-models/household/kitchenware/free-kitchen-sponge)
+- [Wall plug](https://www.turbosquid.com/fr/3d-models/wall-plug-3d-model/421718#)
+- [Paving stone](https://ambientcg.com/view?id=PavingStones035)
+- [Fire extinguisher](https://www.cgtrader.com/free-3d-models/architectural/other/fire-extinguisher-low-poly)
+- [Clock](https://www.cgtrader.com/free-3d-models/interior/interior-office/clock-bge-cycles-or-with-constraints-for-animations)
+- [Books](https://assetstore.unity.com/packages/3d/props/interior/qa-books-115415)
+- [Office props](https://assetstore.unity.com/packages/3d/environments/low-poly-office-props-lite-131438)
+- [School supplies](https://assetstore.unity.com/packages/3d/school-supplies-96667)
+- [Toilet paper roll](https://assetstore.unity.com/packages/3d/props/toilet-paper-roll-proto-series-165615)
+- [Printer](https://assetstore.unity.com/packages/3d/props/electronics/printer-lowpoly-4996)
+- [Kitchen Appliance](https://assetstore.unity.com/packages/3d/props/electronics/kitchen-appliance-low-poly-180419)
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
