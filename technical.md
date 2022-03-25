@@ -35,7 +35,7 @@ This Project is create by a team composed of :
     - [a. Work estimations and timelines](#a-work-estimations-and-timelines)
     - [b. Priorities](#b-priorities)
     - [c. Milestones](#c-milestones)
-    - [d. Problem encountered](#d-problem-encountered)
+    - [d. Technical risks](#d-technical-risks)
 
 </details>
 
@@ -186,8 +186,10 @@ Our priorities are :
 
 - Friday 8<sup>th</sup> April we have to present and demonstrate the result of our project to our client.
 
-### d. Problem encountered
+### d. Technical risks
+One of the biggest risk during this project is its weight. If the project is to heavy, it would cause problems of fluidity. The immersive experience could be impact and annoying the user or even cause motion sickness.
 
+**Problems encountered:**
 - The base fbx file was over 100MB so we had to use Git LFS the problem we hadn't foreseen is that Git LFS has a storage and bandwidth limit so when we added items to the B3 over the weeks we So when we added items to the B3 over the weeks we reached the storage and bandwidth limit so we couldn't pull any more and therefore we couldn't push any more and so we had to make sure that the B3 was less than 100MB so that we didn't have the problems of Git LFS.
 
 - Computers do not provide enough power for smooth export and launch of fbx files which takes a long time at each launch or export.
