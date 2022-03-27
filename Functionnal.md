@@ -10,6 +10,7 @@
     - [b. Deadlines](#b-deadlines)
   - [2. Risk and assumptions](#2-risk-and-assumptions)
     - [a. General](#a-general)
+    - [b. Motion sickness](#b-motion-sickness)
   - [3. Glossary](#3-glossary)
   - [4. Product overview](#4-product-overview)
   - [5. Personae](#5-personae)
@@ -46,6 +47,9 @@ The deadline for the project is 8 april 2022.
 We will have to be careful that our modelling of the school remains true to reality in order to be feasible. It is not possible to set up a twenty tables for a room that can only accommodate five students.
 Covid can also have an impact on the project by causing absences and delays in its progress.
 No additional costs have been foreseen by the group.
+
+### b. Motion sickness
+Motion sickness is a sick feeling triggered by movement. It is a major risk to our project that can disrupt the final outcome of our project, it is important to bear this in mind when developing our simulation and testing it.
 
 ## 3. Glossary
 | Words           | Meaning                                                                                                                                                                                                                                                                                                                  |
