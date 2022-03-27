@@ -198,6 +198,9 @@ One of the biggest risk during this project is its weight. If the project is to 
 
 
 ## List of asset :
+
+for some decorations, materials or textures we have downloaded assets from the [Unity asset store](https://assetstore.unity.com/?gclid=CjwKCAjwloCSBhAeEiwA3hVo_cNWLtPdh_Qnk1dk6LTLdihd9u0d98ADsrIOfxoGRhAnYzZa3o93dBoC9cYQAvD_BwE&gclsrc=aw.ds), others were made by hand with the help of Blender or directly on Unity.
+Here is a list of the downloaded assets:
 - [Ashtray](https://www.cgtrader.com/free-3d-models/interior/interior-office/used-ashtray)
 - [Microwave](https://www.cgtrader.com/free-3d-models/interior/kitchen/microwave-19523085-bd6e-4046-a0d2-39f7bb44c0bb)
 - [Pool table](https://free3d.com/3d-model/pool-table-v1--600461.html)
