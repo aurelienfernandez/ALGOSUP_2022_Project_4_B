@@ -53,7 +53,7 @@ Plan all the issues could be happened in a school it's not an easy things to do.
 - The number of microwave in the relax room,
 - The number of people that could possibly gather in each rooms.
 
- The entire of this project must be done in **Unity 2020.3.29f1**. We have decided to use this version and not the latest to avoid potential problem with a new version. In Unity all scripts are written in C# and for that we use Visual Studio Community 2019 with all extensions to develop a VR simulation. The headset we use is an Oculus Quest 2. This headset is independant so we can use it without cable and without spend too much time with headset's configurations.  
+ The entire of this project must be done in **Unity 2021.2.16f1**. We have decided to use this version and not the latest to avoid potential problem with a new version. In Unity all scripts are written in C# and for that we use Visual Studio Community 2019 with all extensions to develop a VR simulation. The headset we use is an Oculus Quest 2. This headset is independant so we can use it without cable and without spend too much time with headset's configurations.  
 
 ### b. Glossary
 
@@ -224,6 +224,7 @@ One of the biggest risk during this project is its weight. If the project is to 
 - [Toilet paper roll](https://assetstore.unity.com/packages/3d/props/toilet-paper-roll-proto-series-165615)
 - [Printer](https://assetstore.unity.com/packages/3d/props/electronics/printer-lowpoly-4996)
 - [Kitchen Appliance](https://assetstore.unity.com/packages/3d/props/electronics/kitchen-appliance-low-poly-180419)
+<!-- - []()
 - []()
 - []()
 - []()
@@ -231,5 +232,4 @@ One of the biggest risk during this project is its weight. If the project is to 
 - []()
 - []()
 - []()
-- []()
-- []()
+- []() -->
