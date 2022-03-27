@@ -72,6 +72,7 @@ Plan all the issues could be happened in a school it's not an easy things to do.
 |[Asset store Unity](https://assetstore.unity.com/) |The Unity Asset Store is an ever-expanding library of resources. Unity Technologies and community members create these resources and publish them from the Asset Store. |
 |[.NET 6.O](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)| We use this version of .NET because it is the latest and the more efficient version.|
 |[ambientCG](https://ambientcg.com/)|We use this Website to have all of texture we want. |
+|[Blender](https://www.blender.org/)|We use this software to create some assets and to have a better ownership of the B3. |
 ### d. Configuration
 
 Like our laptops don't have graphic cards we need to build this unity project with a specific way so there are the steps to follow :
@@ -208,7 +209,7 @@ Here is a list of the downloaded assets:
 - [Pouf](https://www.cgtrader.com/free-3d-models/furniture/other/fabric-pouf)
 - [Glass](https://www.cgtrader.com/free-3d-models/household/other/wine-glasses--3)
 - [Aloe vera plant](https://www.cgtrader.com/free-3d-models/plant/pot-plant/aloe-vera-plant-dcc07e32-ba23-4674-af4c-a52d6f608b91)
-- [tall plant pot](https://www.cgtrader.com/free-3d-models/plant/pot-plant/tall-plant-pot)
+- [Tall plant pot](https://www.cgtrader.com/free-3d-models/plant/pot-plant/tall-plant-pot)
 - [Coffe machine](https://www.cgtrader.com/free-3d-models/household/kitchenware/coffee-machine-rigged)
 - [Office drink machine](https://www.cgtrader.com/free-3d-models/interior/interior-office/office-drink-machines-low-poly)
 - [Coffee cup](https://www.cgtrader.com/free-3d-models/household/kitchenware/cafe-coffee-cup-3d-model)
