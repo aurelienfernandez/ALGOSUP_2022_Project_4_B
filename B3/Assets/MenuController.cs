@@ -39,6 +39,10 @@ public class MenuController : MonoBehaviour
             wristUI.SetActive(true);
             activeWristUI = true;
         }
-    } 
+    }
+    public void ReturnToMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
     
 }
