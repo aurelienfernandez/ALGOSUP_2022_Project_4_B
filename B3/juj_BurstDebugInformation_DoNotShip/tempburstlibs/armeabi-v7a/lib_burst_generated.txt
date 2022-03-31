@@ -163,6 +163,7 @@ Library: lib_burst_generated
 --root-assembly=C:\Projet\2022-project-4-virtual-b3_B\B3\Temp\StagingArea\Data\Managed\Oculus.Interaction.Samples.dll
 --root-assembly=C:\Projet\2022-project-4-virtual-b3_B\B3\Temp\StagingArea\Data\Managed\Unity.ProBuilder.dll
 --root-assembly=C:\Projet\2022-project-4-virtual-b3_B\B3\Temp\StagingArea\Data\Managed\Facebook.WitAI.dll
+--root-assembly=C:\Projet\2022-project-4-virtual-b3_B\B3\Temp\StagingArea\Data\Managed\Siccity.GLTFUtility.dll
 --root-assembly=C:\Projet\2022-project-4-virtual-b3_B\B3\Temp\StagingArea\Data\Managed\Oculus.AudioManager.dll
 --root-assembly=C:\Projet\2022-project-4-virtual-b3_B\B3\Temp\StagingArea\Data\Managed\VoiceSDK.Runtime.dll
 --root-assembly=C:\Projet\2022-project-4-virtual-b3_B\B3\Temp\StagingArea\Data\Managed\Unity.ProGrids.dll
@@ -170,6 +171,8 @@ Library: lib_burst_generated
 --root-assembly=C:\Projet\2022-project-4-virtual-b3_B\B3\Temp\StagingArea\Data\Managed\AssistantCoreSDKRuntime.dll
 --root-assembly=C:\Projet\2022-project-4-virtual-b3_B\B3\Temp\StagingArea\Data\Managed\Unity.XR.Management.dll
 --root-assembly=C:\Projet\2022-project-4-virtual-b3_B\B3\Temp\StagingArea\Data\Managed\Oculus.LipSync.dll
+--root-assembly=C:\Projet\2022-project-4-virtual-b3_B\B3\Temp\StagingArea\Data\Managed\ReadyPlayerMe.dll
+--root-assembly=C:\Projet\2022-project-4-virtual-b3_B\B3\Temp\StagingArea\Data\Managed\WebView.dll
 --root-assembly=C:\Projet\2022-project-4-virtual-b3_B\B3\Temp\StagingArea\Data\Managed\Unity.ProBuilder.KdTree.dll
 --root-assembly=C:\Projet\2022-project-4-virtual-b3_B\B3\Temp\StagingArea\Data\Managed\Unity.Formats.Fbx.Runtime.dll
 --root-assembly=C:\Projet\2022-project-4-virtual-b3_B\B3\Temp\StagingArea\Data\Managed\UnityEngine.SpatialTracking.dll

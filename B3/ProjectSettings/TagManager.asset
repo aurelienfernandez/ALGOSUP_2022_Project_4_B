@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Card
   - Insible
+  - Joueur
   layers:
   - Default
   - TransparentFX
@@ -14,8 +15,8 @@ TagManager:
   - Water
   - UI
   - Ignore
-  - 
-  - 
+  - Hands
+  - GrabbableHandlers
   - 
   - 
   - 

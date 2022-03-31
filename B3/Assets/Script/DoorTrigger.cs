@@ -8,12 +8,12 @@ public class DoorTrigger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponentInParent<Animator>();
+        anim = GetComponent<Animator>();
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Joueur"))
         {
 
             Debug.Log("collision with player");
@@ -22,7 +22,7 @@ public class DoorTrigger : MonoBehaviour
     }
     void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Joueur"))
         {
 
             Debug.Log("player exit");
