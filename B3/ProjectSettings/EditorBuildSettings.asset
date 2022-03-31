@@ -11,12 +11,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: df729d012b3650644aaad31bc1b1c351
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Robin.unity
     guid: e48ace89091d5ec4a809ce552ca9c03f
   - enabled: 0
     path: Assets/Scenes/Thomas.unity
     guid: 70d7550fb0b33c946a15e5aa86f62fe7
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 92ad05d4c1d401e43a8af94e67bd44d6, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ffa55c3c2b9bf7c459a7c790e6212a3c, type: 2}
