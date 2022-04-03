@@ -883,7 +883,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6886308494148286764}
   m_Layer: 0
-  m_Name: Bureau1
+  m_Name: Bureau
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
