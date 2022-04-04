@@ -1,0 +1,11 @@
+Model Information:
+* title:	Rare Thrumbo Plushy
+* source:	https://sketchfab.com/3d-models/rare-thrumbo-plushy-ad6d09a83b7e4ffeaa098fb3dfa61d2b
+* author:	PaperWyvern (https://sketchfab.com/xbryton)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Rare Thrumbo Plushy" (https://sketchfab.com/3d-models/rare-thrumbo-plushy-ad6d09a83b7e4ffeaa098fb3dfa61d2b) by PaperWyvern (https://sketchfab.com/xbryton) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
