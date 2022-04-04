@@ -26,7 +26,7 @@ public class PickableObjects : MonoBehaviour
             hasPlayer = false;
         }
 
-        if (hasPlayer && Input.GetKey(KeyCode.Joystick1Button9))
+        if (hasPlayer && OVRInput.Get(OVRInput.Button.One))
         {
             GetComponent<Rigidbody>().isKinematic = true;
             gameObject.transform.parent = hand.transform;
@@ -41,7 +41,7 @@ public class PickableObjects : MonoBehaviour
         {
 
             // Clique gauche = on jette l'objet
-            if (Input.GetMouseButtonDown(0))
+            if (OVRInput.GetDown(OVRInput.Button.Two))
             {
                 GetComponent<Rigidbody>().isKinematic = false;
                 transform.parent = null;
@@ -49,7 +49,7 @@ public class PickableObjects : MonoBehaviour
                 GetComponent<Rigidbody>().AddForce(playerCam.forward * throwForce);
             }
             // clique droit on pose l'objet
-            else if (Input.GetMouseButtonDown(1))
+            else if (OVRInput.GetDown(OVRInput.Button.Three))
             {
                 GetComponent<Rigidbody>().isKinematic = false;
                 transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z - 0.9f);
