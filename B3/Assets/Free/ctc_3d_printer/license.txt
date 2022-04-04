@@ -1,0 +1,11 @@
+Model Information:
+* title:	CTC 3D Printer
+* source:	https://sketchfab.com/3d-models/ctc-3d-printer-56b524beaabb4d5ca2bfc18b20096316
+* author:	anybody (https://sketchfab.com/anybody)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "CTC 3D Printer" (https://sketchfab.com/3d-models/ctc-3d-printer-56b524beaabb4d5ca2bfc18b20096316) by anybody (https://sketchfab.com/anybody) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
