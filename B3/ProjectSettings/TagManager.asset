@@ -7,6 +7,7 @@ TagManager:
   - Card
   - Insible
   - Joueur
+  - Ignore
   layers:
   - Default
   - TransparentFX
