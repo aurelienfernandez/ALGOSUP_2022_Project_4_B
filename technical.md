@@ -36,7 +36,7 @@ This Project is create by a team composed of :
     - [b. Priorities](#b-priorities)
     - [c. Milestones](#c-milestones)
     - [d. Technical risks](#d-technical-risks)
-  - [List of asset :](#list-of-asset-)
+  - [5. List of asset :](#5-list-of-asset-)
 
 </details>
 
@@ -198,7 +198,7 @@ One of the biggest risk during this project is its weight. If the project is to 
 
 
 
-## List of asset :
+## 5. List of asset :
 
 for some decorations, materials or textures we have downloaded assets from the [Unity asset store](https://assetstore.unity.com/?gclid=CjwKCAjwloCSBhAeEiwA3hVo_cNWLtPdh_Qnk1dk6LTLdihd9u0d98ADsrIOfxoGRhAnYzZa3o93dBoC9cYQAvD_BwE&gclsrc=aw.ds), others were made by hand with the help of Blender or directly on Unity.
 Here is a list of the downloaded assets:
@@ -228,8 +228,8 @@ Here is a list of the downloaded assets:
 - [Toilet paper roll](https://assetstore.unity.com/packages/3d/props/toilet-paper-roll-proto-series-165615)
 - [Printer](https://assetstore.unity.com/packages/3d/props/electronics/printer-lowpoly-4996)
 - [Kitchen Appliance](https://assetstore.unity.com/packages/3d/props/electronics/kitchen-appliance-low-poly-180419)
+- [Storage](https://assetstore.unity.com/packages/3d/environments/urban/low-poly-storage-pack-101732)
 <!-- - []()
-- []()
 - []()
 - []()
 - []()
