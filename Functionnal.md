@@ -144,17 +144,19 @@ John is an English teacher from Australia, aged 36. He is a vegetarian and plays
 Kamil is 40 years old and comes from San Francisco, California. He has traveled the world and participated in many projects related to education and English language learning. He is a very sociable person who likes to share his adventures and discuss various topics, he is a great fan of gastronomy.
 
 **CNAM students**
-<!-- <img src="./img/Personae/AgathePersonae.png" alt="Agathe" width="90"/> -->
+
+<img src="./img/Personae/Agathe.png" alt="Agathe" width="90"/>
 
 Agathe is a 24 year old girl from Châteauroux. She moved to Vierzon with her dog. She is a great sportswoman who goes to the gym, jogging and pays particular attention to her diet. She is a characterful girl, who is very assertive and articulate. 
 She recently broke her foot while jogging and is on a crutch.
 
-<!-- <img src="./img/Personae/BertrandPersonae.png" alt="bertrand" width="90"/> -->
+<img src="./img/Personae/Bertrand.png" alt="Bertrand" width="90"/>
 
 Bertrand is 22 years old and lives in Lamotte Beuvron. He is a discreet boy who does not talk much and does not like to cause trouble. He is very polite and helpful.
 
 **CNAM staff**
-<!-- <img src="./img/Personae/GloriaPersonae.png" alt="Gloria" width="90"/> -->
+
+<img src="./img/Personae/Gloria.png" alt="Gloria" width="90"/>
 
 Gloria is a 37 year old woman living in Teillay with her wife and son. She is committed to the feminist cause and makes a point of establishing respect and kindness in her workplace. In her free time she is volunteers in her village library. She has a driving licence but does not like driving.
 
@@ -468,7 +470,7 @@ Description: Describe where the member of staff can move on the B3.
 | 10.45AM - 11.00AM | He goes to the terrace to smoke and takes the opportunity to chat with the students present. Before returning to his office he goes to the toilet. |
 | 11.00AM - 12.30AM | He left the school to go to Orléans to represent the school at the student fair. He doesn't come back to school after that.                        |
 
-**Gloria: A woman who teaches soft skill in ALGOSUP, she comes by bike and eat at Algosup.**
+**Maria: A woman who teaches soft skill in ALGOSUP, she comes by bike and eat at Algosup.**
 
 Description: Describe where the member of staff can move on the B3.
 
