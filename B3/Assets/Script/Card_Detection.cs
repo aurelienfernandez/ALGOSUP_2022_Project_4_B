@@ -11,7 +11,9 @@ public class Card_Detection : MonoBehaviour
    private HingeJoint doorHinge;
    private  JointLimits limits;
    private bool opened;
-   private Rigidbody doorRigi; 
+   private Rigidbody doorRigi;
+   public Vector3 HingeJoint_Anchor; 
+   public Vector3 HingeJoint_Axis;
    private bool closable=false;
    private void Start() {
        opened=false;
@@ -34,8 +36,10 @@ public class Card_Detection : MonoBehaviour
            doorHinge.limits=limits;
            doorHinge.useLimits=true;
            doorRigi.isKinematic=false;
-           doorHinge.axis=new Vector3(0,0,1);
+           doorHinge.anchor=HingeJoint_Anchor;
+           doorHinge.axis= HingeJoint_Axis;
            opened=true;
+           
 
        }
    }
