@@ -81,7 +81,7 @@ Ada is a 21 year old girl, born and raised in Berlin, Germany. she obtained her 
   
   Cleo is a 17 year old girl. She was born in France and spent all her studies in a small village with her family. She did not enjoy her years in high school where she found herself failing academically, but she still managed to graduate. She has a new vision of education and she does not want to relive the difficulties she experienced in high school. She likes to read and watch romantic series, she doesn't go out much and has difficulty fitting in. For her studies, she had to leave her family, and she had a hard time with this break. She is also afraid of not being able to follow the courses because of her level of English. Cléo has a driving licence but is still too young to drive alone.
   
-  <img src="./img/Personae/natsukiPersonae.png" alt="Natsuki" width="90"/>
+  <img src="./img/Personae/NatsukiPersonae.png" alt="Natsuki" width="90"/>
   
   Natsuki is a Japanese girl who came to France to improve her French, she is 20 years old. She obtained a literary baccalaureate. She does not yet speak French properly, which causes her daily integration problems. However, she speaks English and Japanese very well. She is a big music fan, she plays the piano. She has recently discovered an interest in cryptocurrencies and Non-fungible tokens (NFTs). Natsuki is a vegetarian and is committed to animal rights and ecology. She has a driving licence and an electric car.
 
